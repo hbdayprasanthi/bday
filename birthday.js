@@ -1,12 +1,3 @@
-window.onresize = function (event) {
-  applyOrientation();
-}
-
-function applyOrientation() {
-  if (window.innerHeight > window.innerWidth) {
-   alert("You are now in portrait");
-  } 
-}
 (function() {
     function $(id) {
       return document.getElementById(id);
