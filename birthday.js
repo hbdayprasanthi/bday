@@ -2,7 +2,6 @@
     function $(id) {
       return document.getElementById(id);
     }
-  
     var card = $('card'),
         openB = $('open'),
         closeB = $('close'),
@@ -130,3 +129,6 @@ for(let i in this.particles){
      }          
  }  
 }    
+if(screen.availHeight > screen.availWidth){
+    alert("Please use Landscape!");
+}
