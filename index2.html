@@ -3,6 +3,19 @@
   <meta name="viewport" content="width=800, initial-scale=1" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style>
+    @media (max-width: 1024px) and (orientation: portrait){ /* tablet and smaller */
+        body:after{
+          position: absolute;
+          z-index: 9999;
+          width: 100%;
+          top: 0;
+          bottom: 0;
+          content: "";
+          background: #212121 url(http://i.stack.imgur.com/sValK.png) 0 0 no-repeat; /* replace with an image that tells the visitor to rotate the device to landscape mode */
+          background-size: 100% auto;
+          opacity: 0.95;
+        }
+      }
   body{
     overflow-x: hidden;
   }
