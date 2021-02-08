@@ -1,7 +1,5 @@
-while(2 == 2) {
-  if(screen.availHeight > screen.availWidth){
-    alert("Please use Landscape!");
-}
+if (window.matchMedia("(orientation: portrait)").matches) {
+  alert("Please Use Landscape")
 }
 const count = document.getElementById('count');
 const head = document.getElementById('head');
