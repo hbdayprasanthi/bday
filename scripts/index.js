@@ -1,3 +1,8 @@
+while(2 == 2) {
+  if(screen.availHeight > screen.availWidth){
+    alert("Please use Landscape!");
+}
+}
 const count = document.getElementById('count');
 const head = document.getElementById('head');
 const giftbox = document.getElementById('merrywrap');
