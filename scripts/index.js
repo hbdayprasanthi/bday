@@ -1,6 +1,3 @@
-if (window.matchMedia("(orientation: portrait)").matches) {
-  alert("Please Use Landscape")
-}
 const count = document.getElementById('count');
 const head = document.getElementById('head');
 const giftbox = document.getElementById('merrywrap');
