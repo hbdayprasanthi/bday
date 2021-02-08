@@ -3,10 +3,22 @@
   <meta name="viewport" content="width=800, initial-scale=1" />
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <style>
-  #fullwebpage { display:block; }
-@media screen and (max-width: 720px) {
-          document.body.setAttribute( "style", "-webkit-transform: rotate(-90deg);");
-}
+      #landscapepopup {
+            background-color: black;
+            text-align: center;
+            display: none;
+            align-items: center;
+        }
+        .popup{
+            color: white;
+        }
+        @media screen and (max-width: 480px){
+            #landscapepopup {
+                width:700px;
+                height: 800px;
+                display: block  ;
+            }
+        }
   body{
   background-image: url(./Websiteredirect/back.jpg);
   margin:0;
@@ -247,6 +259,10 @@ footer {
   </style>
   </head>
 <body>
+      <div id="landscapepopup">
+        <img src="https://victoryfort.org/wp-content/uploads/2019/05/rotate.jpg" alt="">
+        <p class="popup">Please Switch to Landscape Mode</p>
+    </div>
   <div id="fullwebpage">
   <div class="banner">
   </div>
