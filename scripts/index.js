@@ -2,10 +2,11 @@ const count = document.getElementById('count');
 const head = document.getElementById('head');
 const giftbox = document.getElementById('merrywrap');
 const canvasC = document.getElementById('c');
-        function Playmusic() {
-            var audio = new Audio('./happybirthday.mp4');
-            audio.loop = true;
-            audio.play();
+function Playmusic() {
+   var audio = new Audio('./happybirthday.mp4');
+   audio.loop = true;
+   audio.play();
+}
 const config = {
   birthdate: 'Jan 29, 2020',
   name: 'Prasanthi'
